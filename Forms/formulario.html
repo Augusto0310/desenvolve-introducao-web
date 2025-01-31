@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PDSatisfação - Forms</title>
+    </head>
+    <body>
+        <h1>Formulário de Satisfação</h1>
+        <h1>Dados Pessoais</h1>
+        <form>
+            <label>Nome:</label>
+            <input type="text" name="nome"><br><br>
+    
+            <label>E-mail:</label>
+            <input type="email" name="email"><br><br>
+    
+            <label>Telefone:</label>
+            <input type="tel" name="telefone"><br><br>
+    
+            <h2>Pesquisa</h2>
+    
+            <p>Você já utilizou nosso serviço antes?</p>
+            <input type="radio" name="uso" value="sim"> Sim
+            <input type="radio" name="uso" value="nao"> Não<br><br>
+    
+            <p>Você recomendaria nosso serviço?</p>
+            <input type="radio" name="recomenda" value="sim"> Sim
+            <input type="radio" name="recomenda" value="nao"> Não<br><br>
+    
+            <p>Qual é sua faixa etária?</p>
+            <select name="idade">
+                <option value="18-25">18-25 anos</option>
+                <option value="26-35">26-35 anos</option>
+                <option value="36-45">36-45 anos</option>
+                <option value="46+">Acima de 45 anos</option>
+            </select><br><br>
+    
+            <input type="checkbox" name="compartilhar"> Autorizo compartilhar minhas respostas com terceiros.<br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
