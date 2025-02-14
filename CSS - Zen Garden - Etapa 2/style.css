@@ -1,0 +1,47 @@
+/*
+Paleta de Cores 
+Fundo: #2d2d29
+Fonte: #dfece6
+Destaque: #3ca2a2
+*/
+
+html{
+    background-color: #2d2d29;
+    color: #dfece6;
+    font-size: 16px;
+    font-family: Segoe UI, sans-serif; 
+}
+
+p{
+    text-indent: 1em;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+ 
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font: 1.2rem;
+}
+
+.summary{
+
+    text-align: center;
+
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+}
